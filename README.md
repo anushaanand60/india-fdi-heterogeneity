@@ -35,9 +35,7 @@ The analysis compares restrictiveness across **11 service/tertiary sectors**:
 3. **Calculation (Manhattan Distance):**  
    We measure heterogeneity as the average absolute difference across sectoral scores:  
 
-   \[
-   Heterogeneity(i,j) = \frac{1}{N} \sum_{k=1}^{N} \big| Score(i,k) – Score(j,k) \big|
-   \]  
+   Heterogeneity(i,j) = (1/N) * Σ | Score(i,k) – Score(j,k) |
 
    where:  
    - \(N\) = number of common sectors  
